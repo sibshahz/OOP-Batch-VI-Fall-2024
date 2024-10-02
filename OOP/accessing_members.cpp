@@ -6,6 +6,9 @@ using namespace std;
 class Student{
 	private:
 		float cgpa=2.5;
+		void specialMethod(){
+			cout<<"Doing something special";
+		}
 	public:
 		string name;
 		string rollno;
