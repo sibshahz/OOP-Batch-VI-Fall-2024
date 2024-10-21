@@ -14,6 +14,7 @@ void Student::setRollNo(int rNum){
 
 }
 
-int Student::getRollNo(){
+int Student::getRollNo() const{
+//	rollNo=755;
 	return rollNo;
 }

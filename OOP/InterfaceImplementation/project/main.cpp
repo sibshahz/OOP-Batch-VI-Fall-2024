@@ -7,7 +7,6 @@ int main(){
 	Student someone;
 	someone.setRollNo(255);
 	cout<<"Roll no of someone is: "<<someone.getRollNo()<<endl;
-	Student wrongone;
-	wrongone.setRollNo(-15);
+	
 	return 0;
 }
