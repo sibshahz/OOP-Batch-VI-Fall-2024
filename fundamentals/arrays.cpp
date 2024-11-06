@@ -10,9 +10,9 @@ int main(){
 	string fourthCar = "Suzuki ";
 	
 	//declaring an array
-	string carsArray[5] = {"Honda", "Toyota", "Hyundai", "Suzuki"};
-	carsArray[4]="Mercedes";
-	cout<<"Selected car is: "<<carsArray[5]<<"\n";
+	string carsArray[5] = {"Honda", "Toyota", "Hyundai", "Suzuki","BMW"};
+//	carsArray[4]="Mercedes";
+	cout<<"Selected car is: "<<carsArray[4]<<"\n";
 	int getArrayLength = sizeof(carsArray) / sizeof(string);
 	cout<<"Length of our array is: "<<getArrayLength<<"\n";
 	
